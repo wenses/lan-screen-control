@@ -174,7 +174,7 @@ The above screenshot shows the complete HTTP GET action configuration:
 - **Endpoint:** `GET /unlock`
 - **Method:** GET or POST
 - **Description:** Sends Enter key and types your password to unlock Windows
-- **Note:** The password is currently hardcoded as "KILUNGULE" (modify in the code for security)
+- **Note:** Modify the password in the string "your-windows-password"
 - **Example:** `http://192.168.1.100/unlock`
 
 ## Usage
@@ -194,7 +194,7 @@ Once set up:
 ### Changing the Unlock Password
 Edit `main.py` line 25:
 ```python
-text="KILUNGULE"  # Replace with your actual Windows password
+text="your-windows-password"  # Replace with your actual Windows password
 ```
 
 ### Changing the Server Port
